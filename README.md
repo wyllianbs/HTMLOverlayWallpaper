@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://store.kde.org/p/2370809/"><img src="https://img.shields.io/badge/KDE%20Store-Get%20it-1d99f3?logo=kde&logoColor=white" alt="Get it on the KDE Store"></a>
+  <a href="https://store.kde.org/p/2370813/"><img src="https://img.shields.io/badge/KDE%20Store-Get%20it-1d99f3?logo=kde&logoColor=white" alt="Get it on the KDE Store"></a>
 </p>
 
 # HTML Overlay Wallpaper
