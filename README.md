@@ -50,9 +50,11 @@ useful for dashboards, news tickers, clocks, stats, or any web widget.
 
 ### From the KDE Store (easiest)
 
+Product page: **https://store.kde.org/p/2370813/**
+
 Right-click the desktop → **Configure Desktop and Wallpaper** →
 **Wallpaper type** → **Get New Plugins…**, then search for *HTML Overlay
-Wallpaper*.
+Wallpaper*. You can also download the package directly from the store page above.
 
 ### Manual install (no cmake required)
 
