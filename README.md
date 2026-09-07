@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.svg" alt="HTML Overlay Wallpaper" width="128">
+  <img src="logo_mono.png" alt="HTML Overlay Wallpaper" width="128">
 </p>
 
 <p align="center">
