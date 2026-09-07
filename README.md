@@ -2,6 +2,10 @@
   <img src="logo.svg" alt="HTML Overlay Wallpaper" width="128">
 </p>
 
+<p align="center">
+  <a href="https://store.kde.org/p/2370809/"><img src="https://img.shields.io/badge/KDE%20Store-Get%20it-1d99f3?logo=kde&logoColor=white" alt="Get it on the KDE Store"></a>
+</p>
+
 # HTML Overlay Wallpaper
 
 A KDE Plasma 6 wallpaper plugin that shows a **native image slideshow** as the
