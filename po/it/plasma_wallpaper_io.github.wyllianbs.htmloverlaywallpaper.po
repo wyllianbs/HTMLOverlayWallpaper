@@ -1,0 +1,201 @@
+#
+# SPDX-License-Identifier: LGPL-2.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_wallpaper_io.github.wyllianbs.htmloverlaywallpaper\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-07 00:00+0000\n"
+"PO-Revision-Date: 2026-09-07 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: package/contents/ui/config.qml
+msgid "Wallpaper (Slideshow)"
+msgstr "Sfondo (Presentazione)"
+
+#: package/contents/ui/config.qml
+msgid "Positioning:"
+msgstr "Posizionamento:"
+
+#: package/contents/ui/config.qml
+msgid "Scaled and Cropped"
+msgstr "Scalato e ritagliato"
+
+#: package/contents/ui/config.qml
+msgid "Scaled"
+msgstr "Scalato"
+
+#: package/contents/ui/config.qml
+msgid "Scaled, Keep Proportions"
+msgstr "Scalato, mantieni proporzioni"
+
+#: package/contents/ui/config.qml
+msgid "Centered"
+msgstr "Centrato"
+
+#: package/contents/ui/config.qml
+msgid "Tiled"
+msgstr "Affiancato"
+
+#: package/contents/ui/config.qml
+msgid "Background:"
+msgstr "Sfondo:"
+
+#: package/contents/ui/config.qml
+msgid "Blur"
+msgstr "Sfocatura"
+
+#: package/contents/ui/config.qml
+msgid "Background color"
+msgstr "Colore di sfondo"
+
+#: package/contents/ui/config.qml
+msgid "HTML Page"
+msgstr "Pagina HTML"
+
+#: package/contents/ui/config.qml
+msgid "URL:"
+msgstr "URL:"
+
+#: package/contents/ui/config.qml
+msgid "https://example.com  or  file:///path/page.html"
+msgstr "https://esempio.com  o  file:///percorso/pagina.html"
+
+#: package/contents/ui/config.qml
+msgid "Zoom:"
+msgstr "Zoom:"
+
+#: package/contents/ui/config.qml
+msgid "Insecure HTTPS:"
+msgstr "HTTPS non sicuro:"
+
+#: package/contents/ui/config.qml
+msgid "Auto refresh:"
+msgstr "Aggiornamento automatico:"
+
+#: package/contents/ui/config.qml
+msgid "disabled"
+msgstr "disattivato"
+
+#: package/contents/ui/config.qml
+msgctxt "@label short for seconds"
+msgid "%1 s"
+msgstr "%1 s"
+
+#: package/contents/ui/config.qml
+msgctxt "@label short for minutes"
+msgid "%1 min"
+msgstr "%1 min"
+
+#: package/contents/ui/config.qml
+msgid "Overlay Position and Size"
+msgstr "Posizione e dimensione della sovrapposizione"
+
+#: package/contents/ui/config.qml
+msgid "Width (px):"
+msgstr "Larghezza (px):"
+
+#: package/contents/ui/config.qml
+msgid "0 = full screen width"
+msgstr "0 = larghezza intera dello schermo"
+
+#: package/contents/ui/config.qml
+msgid "Height (px):"
+msgstr "Altezza (px):"
+
+#: package/contents/ui/config.qml
+msgid "0 = full screen height"
+msgstr "0 = altezza intera dello schermo"
+
+#: package/contents/ui/config.qml
+msgid "Anchor:"
+msgstr "Ancoraggio:"
+
+#: package/contents/ui/config.qml
+msgid "Top left"
+msgstr "In alto a sinistra"
+
+#: package/contents/ui/config.qml
+msgid "Top center"
+msgstr "In alto al centro"
+
+#: package/contents/ui/config.qml
+msgid "Top right"
+msgstr "In alto a destra"
+
+#: package/contents/ui/config.qml
+msgid "Center left"
+msgstr "Al centro a sinistra"
+
+#: package/contents/ui/config.qml
+msgid "Center"
+msgstr "Al centro"
+
+#: package/contents/ui/config.qml
+msgid "Center right"
+msgstr "Al centro a destra"
+
+#: package/contents/ui/config.qml
+msgid "Bottom left"
+msgstr "In basso a sinistra"
+
+#: package/contents/ui/config.qml
+msgid "Bottom center"
+msgstr "In basso al centro"
+
+#: package/contents/ui/config.qml
+msgid "Bottom right"
+msgstr "In basso a destra"
+
+#: package/contents/ui/config.qml
+msgid "Overlay Margins (px)"
+msgstr "Margini della sovrapposizione (px)"
+
+#: package/contents/ui/config.qml
+msgid "Top:"
+msgstr "Superiore:"
+
+#: package/contents/ui/config.qml
+msgid "Bottom:"
+msgstr "Inferiore:"
+
+#: package/contents/ui/config.qml
+msgid "Left:"
+msgstr "Sinistra:"
+
+#: package/contents/ui/config.qml
+msgid "Right:"
+msgstr "Destra:"
+
+#: package/contents/ui/config.qml
+msgid "Reload:"
+msgstr "Ricarica:"
+
+#: package/contents/ui/config.qml
+msgid "Reload now"
+msgstr "Ricarica ora"
+
+#: package/contents/ui/config.qml
+msgid "Reloads the HTML overlay."
+msgstr "Ricarica la sovrapposizione HTML."
+
+#: package/contents/ui/config.qml
+msgid "Drag to resize · double-click to reset"
+msgstr "Trascina per ridimensionare · doppio clic per ripristinare"
+
+#: package/contents/ui/ThumbnailsComponent.qml
+msgid "Select All"
+msgstr "Seleziona tutte"
+
+#: package/contents/ui/ThumbnailsComponent.qml
+msgid "Deselect All"
+msgstr "Deseleziona tutte"
+
+#: package/contents/ui/main.qml
+msgid "Reload HTML Page"
+msgstr "Ricarica pagina HTML"

@@ -1,0 +1,12 @@
+# Traduções compiladas (geradas por package.sh a partir de po/)
+package/contents/locale/
+
+# Arquivos distribuíveis gerados
+*.tar.gz
+
+# Artefatos de compilação QML
+*.qmlc
+*.jsc
+
+# Build do cmake
+build/

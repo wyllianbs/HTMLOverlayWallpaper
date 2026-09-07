@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+
+    <!-- ── Slideshow / imagem de fundo (org.kde.slideshow) ── -->
+    <entry name="Image" type="String">
+      <label>Wallpaper image path or wallpaper name</label>
+      <default></default>
+    </entry>
+    <entry name="Color" type="Color">
+      <label>Background fill color</label>
+      <default>#000000</default>
+    </entry>
+    <entry name="Blur" type="bool">
+      <label>Blur background filling</label>
+      <default>false</default>
+    </entry>
+    <entry name="FillMode" type="int">
+      <label>Sizing, cropping and positioning of the wallpaper image</label>
+      <default>2</default>
+    </entry>
+    <entry name="SlidePaths" type="StringList">
+      <label>Paths used for the slideshow</label>
+      <default>preferred://wallpaperlocations</default>
+    </entry>
+    <entry name="SlideInterval" type="int">
+      <label>Interval between slides (s)</label>
+      <default>900</default>
+    </entry>
+    <entry name="UncheckedSlides" type="StringList">
+      <label>Unchecked Slides</label>
+      <default></default>
+    </entry>
+    <entry name="SlideshowMode" type="int">
+      <label>Ordering mode for the slideshow</label>
+      <default>0</default>
+    </entry>
+    <entry name="SlideshowFoldersFirst" type="bool">
+      <label>Processing folders first for the slideshow</label>
+      <default>false</default>
+    </entry>
+
+    <!-- Altura (px) da região Folders/Images no diálogo de configuração;
+         ajustável arrastando a alça abaixo dela. -->
+    <entry name="SlideshowPanelHeight" type="Int">
+      <default>320</default>
+    </entry>
+
+    <!-- ── Overlay HTML ── -->
+    <entry name="DisplayPage" type="String">
+      <default>https://kde.org/</default>
+    </entry>
+    <!-- Parâmetros de URL adicionados à página HTML
+         ex: font=13&refresh=30&carousel=1&sort=atual&period=43200000&theme=dark -->
+    <entry name="PageParams" type="String">
+      <default></default>
+    </entry>
+    <entry name="ZoomFactor" type="Double">
+      <default>1.0</default>
+    </entry>
+    <entry name="InsecureHTTPS" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="RefreshSeconds" type="Int">
+      <default>0</default>
+    </entry>
+    <!-- Incrementado pelo botão "Reload now" da configuração; o overlay
+         observa esta chave e recarrega a página quando ela muda. -->
+    <entry name="ReloadNonce" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="OverlayWidth" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="OverlayHeight" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="Position" type="String">
+      <default>center</default>
+    </entry>
+    <entry name="MarginTop" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="MarginBottom" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="MarginLeft" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="MarginRight" type="Int">
+      <default>0</default>
+    </entry>
+
+  </group>
+</kcfg>

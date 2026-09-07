@@ -1,0 +1,26 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "wyllian.bs@ufsc.br",
+                "Name": "Wyllian Bezerra da Silva"
+            }
+        ],
+        "Description": "Displays an HTML page in a configurable region of the desktop, over a native slideshow",
+        "Description[de]": "Zeigt eine HTML-Seite in einem konfigurierbaren Bereich der Arbeitsfläche über einer nativen Diaschau an",
+        "Description[es]": "Muestra una página HTML en una región configurable del escritorio, sobre una presentación nativa",
+        "Description[fr]": "Affiche une page HTML dans une région configurable du bureau, par-dessus un diaporama natif",
+        "Description[it]": "Mostra una pagina HTML in una regione configurabile del desktop, sopra una presentazione nativa",
+        "Description[pt_BR]": "Exibe uma página HTML em uma região configurável da área de trabalho, sobre um slideshow nativo",
+        "Icon": "preferences-desktop-wallpaper",
+        "Id": "io.github.wyllianbs.htmloverlaywallpaper",
+        "License": "LGPLv2+",
+        "Name": "HTML Overlay Wallpaper",
+        "Version": "1.0.0",
+        "Website": "https://github.com/wyllianbs/HTMLOverlayWallpaper/"
+    },
+    "Keywords": "html;wallpaper;web;overlay;slideshow",
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Wallpaper"
+}
