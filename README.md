@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="HTML Overlay Wallpaper" width="128">
+</p>
+
 # HTML Overlay Wallpaper
 
 A KDE Plasma 6 wallpaper plugin that shows a **native image slideshow** as the
