@@ -16,7 +16,8 @@ useful for dashboards, news tickers, clocks, stats, or any web widget.
 > real Plasma slideshow underneath and places the web page as a positioned
 > *overlay* over it.
 
-![HTML Overlay Wallpaper settings](screenshots/settings.png)
+![HTML Overlay Wallpaper settings](screenshots/settings_1.png)
+![Settings scrolled to the HTML and overlay options](screenshots/settings_2.png)
 
 <p align="center">
   <img src="screenshots/right_buttom.png" alt="Reload HTML Page from the desktop context menu" width="320">

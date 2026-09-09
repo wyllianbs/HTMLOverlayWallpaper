@@ -18,6 +18,7 @@
  */
 
 import QtQuick
+import QtQuick.Window
 import QtQuick.Layouts
 import QtQuick.Controls
 import QtQuick.Controls as QQC2
@@ -113,6 +114,31 @@ ColumnLayout {
         onSlideshowFoldersFirstChanged: cfg_SlideshowFoldersFirst = slideshowFoldersFirst
         onSettingsChanged:              root.configurationChanged()
     }
+
+    // Scroll vertical: permite acessar todas as seções mesmo com a janela
+    // de configuração pequena. Envolve todo o conteúdo visual.
+    QQC2.ScrollView {
+        id: cfgScroll
+        Layout.fillWidth: true
+        Layout.fillHeight: true
+        contentWidth: availableWidth
+        clip: true
+
+        // O container do KDE não limita a altura do config, então limitamos o
+        // ScrollView à área visível da janela — assim a rolagem vertical engata
+        // quando o conteúdo é mais alto que a janela.
+        Layout.maximumHeight: {
+            const win = Window.window
+            if (!win)
+                return Number.POSITIVE_INFINITY
+            const top = cfgScroll.mapToItem(null, 0, 0).y
+            return Math.max(Kirigami.Units.gridUnit * 12,
+                            win.height - top - Kirigami.Units.gridUnit * 3)
+        }
+
+    ColumnLayout {
+        width: cfgScroll.availableWidth
+        spacing: 0
 
     // ════════════════════════════════════════════════════
     // PAPEL DE PAREDE — SLIDESHOW
@@ -401,6 +427,9 @@ ColumnLayout {
         SpinBox { id: mlSpin; from: -4000; to: 4000; editable: true; Layout.minimumWidth: 100 }
         Label { text: i18nd(root.i18nDomain, "Right:");  horizontalAlignment: Text.AlignRight; Layout.fillWidth: true }
         SpinBox { id: mrSpin; from: -4000; to: 4000; editable: true; Layout.minimumWidth: 100 }
+    }
+
+    }
     }
 
     readonly property int lw: 130
