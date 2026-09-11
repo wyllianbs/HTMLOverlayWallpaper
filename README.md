@@ -115,3 +115,13 @@ rebuild. Contributions welcome.
   (https://github.com/Marcel1202/HTMLWallpaper), and on the official KDE
   `org.kde.image` slideshow components.
 - Maintained by **Wyllian Bezerra da Silva**.
+
+
+## 👤 Autor
+
+**Prof. Wyllian Bezerra da Silva**  
+Universidade Federal de Santa Catarina (UFSC)  
+Departamento de Informática e Estatística (INE)
+
+
+---
